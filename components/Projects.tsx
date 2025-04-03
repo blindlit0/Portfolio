@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import { Button } from "./ui/button";
 import { FaGithub } from 'react-icons/fa';
+import Image from 'next/image';
 
 const projects = [
   {
@@ -73,10 +74,12 @@ export default function Projects() {
               className="bg-black-200 rounded-lg overflow-hidden"
             >
               <div className="relative h-48">
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                   <div className="flex space-x-4">
