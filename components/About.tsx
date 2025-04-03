@@ -48,7 +48,7 @@ export default function About() {
             <div>
               <h3 className="text-2xl font-bold text-white mb-4">My Journey</h3>
               <p className="text-gray-300 leading-relaxed">
-                I'm a passionate software developer with a strong foundation in web development.
+                I&apos;m a passionate software developer with a strong foundation in web development.
                 My journey in tech began with a curiosity for creating digital experiences,
                 and that curiosity has evolved into a professional pursuit of excellence in
                 software development.

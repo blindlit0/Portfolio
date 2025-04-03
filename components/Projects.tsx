@@ -59,7 +59,7 @@ export default function Projects() {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">My Projects</h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Here are some of the projects I've worked on
+            Here are some of the projects I&apos;ve worked on
           </p>
         </motion.div>
 

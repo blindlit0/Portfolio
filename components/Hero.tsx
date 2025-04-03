@@ -29,7 +29,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-5xl md:text-7xl font-bold text-white mb-6"
             >
-              Hi, I'm Napey Frederick.
+              Hi, I&apos;m Napey Frederick.
             </motion.h1>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
