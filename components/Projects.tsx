@@ -21,12 +21,12 @@ const projects = [
     github: "https://github.com/blindlit0/StashSmart"
   },
   {
-    title: "Project 3",
-    description: "A third project demonstrating various skills and expertise.",
-    tech: ["Vue.js", "Firebase", "Sass"],
-    image: "/project3.jpg",
-    link: "https://project3.com",
-    github: "https://github.com/yourusername/project3"
+    title: "Ballin",
+    description: "A simple game made with Unity.",
+    tech: ["Unity", "C#"],
+    image: "/a-sleek-modern-digital-design-with-the-t_mesoT18ARmeoRFo-iQFutQ_aC2AEXQGS5G5MnOe4fek2g.jpeg",
+    link: "https://ballinunity.netlify.app/",
+    github: "https://github.com/blindlit0/Ballin"
   },
 ];
 
